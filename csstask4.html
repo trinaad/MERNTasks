@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MERN TASKS</title>
+    <style>
+        .container {
+            width: 500px;
+            height: 430px;
+            border: 2px solid black;
+            display: flex;
+            overflow: hidden;
+        }
+
+        #hover1,
+        #hover2,
+        #hover3,
+        #hover4 {
+            width: 50px;
+            height: 50px;
+
+            border-color: transparent;
+            border-radius: 0px 5px 5px 0px;
+            margin-top: 10px;
+            cursor: pointer;
+            margin-left: -30px;
+        }
+
+        #hover1:hover,
+        #hover2:hover,
+        #hover3:hover,
+        #hover4:hover {
+            margin-left: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div style="display: flex; flex-direction: column; align-items: center;">
+            <button id="hover1" style="background-color:#08ac6c;margin-top: 30px;color: aliceblue;">glen</button>
+            <button id="hover2" style="background-color:#2894f4;color: aliceblue;">daryl</button>
+            <button id="hover3" style="background-color:#f84434;color: aliceblue;">Tri</button>
+            <button id="hover4" style="background-color:#585454;color: aliceblue;">rick</button>
+        </div>
+
+        <div style="margin-left: 30px;">
+            <h2>Hoverable Sidenav Buttons</h2>
+            <p>Hover over the buttons in the left side navigation to open them.</p>
+        </div>
+    </div>
+</body>
+
+</html>
